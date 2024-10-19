@@ -121,7 +121,7 @@ venv/
 ENV/
 ```
 
-# Datendateien
+# Dateien
 ```
 *.csv
 *.xlsx
