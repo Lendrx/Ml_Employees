@@ -81,11 +81,14 @@ Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Details finden Sie i
 
 ```
 # Python
+```
 __pycache__/
 *.py[cod]
 *$py.class
+```
 
 # Verteilungen
+```
 .Python
 build/
 develop-eggs/
@@ -102,29 +105,36 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+```
 
 # Jupyter Notebook
+```
 .ipynb_checkpoints
+```
 
 # Umgebungen
+```
 .env
 .venv
 env/
 venv/
 ENV/
+```
 
 # Datendateien
+```
 *.csv
 *.xlsx
-
+```
 # Modelle
+```
 *.joblib
-
+```
 # Systemdateien
+```
 .DS_Store
 Thumbs.db
-
-
+```
 ## requirements.txt
 
 ```
