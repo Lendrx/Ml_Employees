@@ -24,9 +24,6 @@ mitarbeiter-gruppierung/
 └── .gitignore
 ```
 
-## README.md
-
-```markdown
 # Mitarbeiter-Gruppierungs-Projekt
 
 Dieses Projekt enthält Tools zur Gruppierung von Mitarbeitern basierend auf ihren Berufsbezeichnungen und zur Generierung von Beispieldaten für Testzwecke.
