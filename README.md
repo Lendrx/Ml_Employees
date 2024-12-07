@@ -119,14 +119,4 @@ Ausführliche Dokumentation finden Sie im docs/ Verzeichnis. Wichtige Dokumente:
 📜 Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die LICENSE.md Datei für Details.
 
-👥 Team & Kontakt
-* Entwicklungsteam
-* Email: contact@analyze-mployees.com
-* GitHub Issues für Fehlermeldungen und Feature-Requests
-
-🙏 Danksagungen
-* Open Source Community
-* Alle Projektbeitragenden
-* Unterstützende Organisationen
-
 ⭐️ Wenn dir dieses Projekt gefällt, gib ihm einen Stern auf GitHub!
