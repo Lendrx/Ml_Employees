@@ -146,14 +146,4 @@ Ausführliche Dokumentation finden Sie im docs/ Verzeichnis:
 📜 Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die LICENSE.md Datei für Details.
 
-👥 Team & Kontakt
-* Data Science Team
-* Email: contact@analyze-mployees.com
-* GitHub Issues für Fehlermeldungen und Feature-Requests
-
-🙏 Danksagungen
-* Scikit-learn Community
-* Pandas Development Team
-* Alle Projektbeitragenden
-
 ⭐️ Wenn dir dieses Projekt gefällt, gib ihm einen Stern auf GitHub!
