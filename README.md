@@ -129,13 +129,6 @@ pytest tests/
 pytest tests/test_grouping.py
 ```
 
-📝 Dokumentation
-Ausführliche Dokumentation finden Sie im docs/ Verzeichnis:
-* Technische Dokumentation des Gruppierungssystems
-* API-Referenz
-* Beispielanalysen und Use-Cases
-* Best Practices für die Datenaufbereitung
-
 🤝 Beitragen
 1. Fork das Repository
 2. Erstelle einen Feature Branch (`git checkout -b feature/NeueAnalyse`)
