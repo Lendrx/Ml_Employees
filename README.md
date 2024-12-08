@@ -129,13 +129,6 @@ pytest tests/
 pytest tests/test_grouping.py
 ```
 
-🤝 Beitragen
-1. Fork das Repository
-2. Erstelle einen Feature Branch (`git checkout -b feature/NeueAnalyse`)
-3. Commit deine Änderungen (`git commit -m 'Füge neue Gruppierungsfunktion hinzu'`)
-4. Push zum Branch (`git push origin feature/NeueAnalyse`)
-5. Öffne einen Pull Request
-
 📜 Lizenz
 Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die LICENSE.md Datei für Details.
 
