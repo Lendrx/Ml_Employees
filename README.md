@@ -1,135 +1,30 @@
-🚀 Employee Analysis Platform
+# ML Employee Analytics
 
-📊 Über das Projekt
-Eine fortschrittliche Datenanalyse-Plattform zur intelligenten Gruppierung und Analyse von Mitarbeiterdaten. Das System nutzt moderne Machine Learning-Techniken für die automatische Identifikation von Mitarbeitergruppen und deren Charakteristiken, ermöglicht tiefgehende Einblicke in Personalstrukturen und unterstützt datengetriebene HR-Entscheidungen.
+## 🎯 Was macht es?
+Machine Learning System zur Analyse von Mitarbeiterdaten. Vorhersage von Personalentwicklung und Identifikation von Schlüsselfaktoren für Mitarbeitererfolg.
 
-🎯 Hauptziele
-* Implementierung eines intelligenten Gruppierungssystems für Mitarbeiterprofile
-* Automatische Erkennung optimaler Gruppenzahlen und Mitarbeitercluster
-* Generierung aussagekräftiger Gruppenprofile und Analysen
-* Unterstützung strategischer HR-Entscheidungen durch KI-gestützte Einblicke
+## 🛠️ Wie ist es gebaut?
+### Tech Stack:
+- Python 3.x
+- Scikit-learn
+- TensorFlow
+- Pandas
+- PostgreSQL
 
-🔑 Hauptfunktionen
-* Intelligentes Clustering mit mehreren Algorithmen (KMeans, DBSCAN, GMM)
-* Automatische Feature-Wichtigkeits-Analyse
-* Dynamische Anpassung der Gruppierungsparameter
-* Umfassende statistische Auswertungen und Visualisierungen
-* Kontinuierliches Lernen aus neuen Datenpunkten
+### Architektur-Highlights:
+1. Modulares ML-Pipeline-System
+2. Automatisches Feature Engineering
+3. Cross-Validation Framework
 
-🛠️ Technologie-Stack
-* **Programmiersprache:** Python 3.9+
-* **Hauptbibliotheken:**
-   * pandas
-   * numpy
-   * scikit-learn
-   * plotly
-   * dash
-   * joblib
-* **Machine Learning:**
-   * KMeans
-   * DBSCAN
-   * Gaussian Mixture Models
-   * PCA
-* **Development Tools:**
-   * Jupyter Notebook
-   * VS Code
-   * Docker
-   * Git
-
-📁 Projektstruktur
-```
-project/
-│
-├── data/                   # Datendateien
-│   ├── raw/               # Rohdaten
-│   ├── processed/         # Verarbeitete Daten
-│   └── external/          # Externe Datenquellen
-│
-├── notebooks/             # Jupyter Notebooks
-│   ├── exploration/       # Data Exploration
-│   └── analysis/         # Finale Analysen
-│
-├── src/                   # Source Code
-│   ├── __init__.py
-│   ├── group_employees.py # Intelligentes Gruppierungssystem
-│   ├── data/             # Datenverarbeitung
-│   ├── features/         # Feature Engineering
-│   ├── models/           # Modelle
-│   └── visualization/    # Visualisierungen
-│
-├── tests/                # Unit Tests
-│
-├── docs/                 # Dokumentation
-│
-├── requirements.txt      # Projektabhängigkeiten
-├── setup.py             # Setup-Konfiguration
-├── .gitignore           # Git-Ignore-Datei
-└── README.md            # Diese Datei
-```
-
-🚀 Installation & Setup
-```bash
-# Repository klonen
-git clone https://github.com/Lendrx/analyze_mployees.git
-cd analyze_mployees
-
-# Virtuelle Umgebung erstellen
-python -m venv venv
-source venv/bin/activate  # Unix
-# oder
-venv\Scripts\activate     # Windows
-
-# Abhängigkeiten installieren
-pip install -r requirements.txt
-```
-
-📈 Beispiele & Nutzung
+## 📊 Technische Features
 ```python
-from src.group_employees import EmployeeGroupingSystem
-import pandas as pd
-
-# Gruppierungssystem initialisieren
-grouping_system = EmployeeGroupingSystem()
-
-# Daten laden
-data = pd.read_csv("data/raw/employees.csv")
-
-# Optimale Gruppenzahl finden
-optimal_groups = grouping_system.suggest_optimal_groups(data)
-
-# System mit optimaler Gruppenzahl konfigurieren
-grouping_system = EmployeeGroupingSystem({
-    'n_clusters': optimal_groups,
-    'random_state': 42
-})
-
-# Gruppierung durchführen
-labels, profiles = grouping_system.fit_predict(data)
-
-# Ergebnisse evaluieren
-evaluation = grouping_system.evaluate_grouping(data, labels)
-
-# Feature-Wichtigkeit analysieren
-feature_importance = grouping_system.identify_feature_importance(data)
+def train_employee_model(data):
+    features = prepare_features(data)
+    model = XGBClassifier()
+    return cross_validate_and_tune(model, features)
 ```
 
-📊 Ergebnisse & Visualisierungen
-* Automatisch generierte Gruppenprofile im `notebooks/analysis` Verzeichnis
-* Interaktive Visualisierungen der Mitarbeitergruppen
-* Feature-Wichtigkeits-Analysen
-* Statistische Auswertungen und Metriken
-* Trendanalysen über Zeit
-
-🧪 Tests
-```bash
-# Alle Tests ausführen
-pytest tests/
-
-# Spezifische Test-Suite ausführen
-pytest tests/test_grouping.py
-```
-
-📜 Lizenz
-Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die LICENSE.md Datei für Details.
-
-⭐️ Wenn dir dieses Projekt gefällt, gib ihm einen Stern auf GitHub!
+Key Features:
+- Churn Prediction
+- Performance Forecasting
+- Automatische Reportgenerierung
