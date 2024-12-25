@@ -1,6 +1,6 @@
 # ML Employee Analytics
 
-## 🎯 Was macht es?
+## 🎯 Worum geht's?
 Machine Learning System zur Analyse von Mitarbeiterdaten. Vorhersage von Personalentwicklung und Identifikation von Schlüsselfaktoren für Mitarbeitererfolg.
 
 ## 🛠️ Wie ist es gebaut?
